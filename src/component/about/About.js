@@ -49,7 +49,7 @@ const About = () => {
             <div className="details-container">
               <FontAwesomeIcon className="icon" icon={faGraduationCap} />
               <h3>Education</h3>
-              <p>Bachelor of Engineering <br /> Mechanical engineering</p>
+              <p>B.E. <br /> Mechanical engineering</p>
             </div>
           </div>
           <div className="text-container">

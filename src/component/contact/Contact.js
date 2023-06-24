@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="contact-info-container">
             <i className="fab fa-linkedin"></i>
             <p>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/gunasekar-r-b076981b9/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
             </p>
@@ -28,7 +28,7 @@ const Contact = () => {
       </section>
       <section className="info">
         <div className="box-container">
-          <a href="https://www.google.com/maps/dir//9.9286571,78.1462116/@9.9286584,78.1455679,19z/data=!4m8!1m5!3m4!2zOcKwNTUnNDMuMiJOIDc4wrAwOCc0Ni40IkU!8m2!3d9.9286571!4d78.1462116!4m1!3e3?entry=ttu">
+          <a href="https://www.google.com/maps/dir//9.9286571,78.1462116/@9.9286584,78.1455679,19z/data=!4m8!1m5!3m4!2zOcKwNTUnNDMuMiJOIDc4wrAwOCc0Ni40IkU!8m2!3d9.9286571!4d78.1462116!4m1!3e3?entry=ttu"  target="_blank" rel="noopener noreferrer">
             <div className="box">
               <i className="fas fa-home"></i>
               <h3>home address</h3>
