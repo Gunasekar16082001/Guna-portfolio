@@ -1,0 +1,180 @@
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  animation: slideFromRight 1s ease-in-out;
+}
+
+.section__text__p1 {
+  text-align: center;
+  animation: slideFromTop 1s ease-in-out;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+  width: 300px;
+  animation: slideFromSide 1s ease-in-out;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  animation: slideFromTop 1s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #about {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 20px;
+  }
+  
+  .section-container {
+    display: block;
+  }
+  
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  
+  /* section {
+    margin: 0 5%;
+  }
+   */
+  .section__pic-container {
+    width: 214px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  
+  .about-containers.about-visible .about-pic {
+    animation: slideFromSide 1s ease-in-out;
+  }
+  
+  .about-containers.about-visible .about-details-container {
+    animation: slideFromRight 1s ease-in-out;
+  }
+  
+  .about-containers.about-visible .title,
+  .about-containers.about-visible .section__text__p1 {
+    animation: slideFromTop 1s ease-in-out;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+    width: 200px;
+  }
+  
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #about {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 20px;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@keyframes slideFromSide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

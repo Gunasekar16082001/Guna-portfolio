@@ -1,0 +1,37 @@
+.portfolio-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .portfolio-footer .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .portfolio-footer p {
+    margin: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-footer .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 390px) {
+    .portfolio-footer {
+    margin-top: 350px;
+    }
+  }
+  

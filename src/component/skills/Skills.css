@@ -1,0 +1,119 @@
+/* Skills SECTION */
+
+#Skills {
+  position: relative;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+}
+
+.Skills-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.Skills-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #Skills {
+        padding-top: 4vh;
+    height: 96vh;
+    margin: 0 20px;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+ 
+  #Skills,
+  .Skills-details-container {
+    margin-top: 3.5rem;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  article {
+    font-size: 1rem;
+  }
+  .Skills-sub-title {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  #Skills {
+    padding-top: 13vh;
+height: 96vh;
+margin: 0 20px;
+}
+}
