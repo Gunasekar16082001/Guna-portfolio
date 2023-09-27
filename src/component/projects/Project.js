@@ -4,7 +4,9 @@ import img1 from '../../img/1.webp';
 import img2 from '../../img/3.png';
 import img3 from '../../img/4.webp';
 import img4 from '../../img/5.png';
-
+import img5 from '../../img/img5.jpg';
+import img6 from '../../img/6.jpg';
+import img7 from '../../img/7.webp';
 
 const projectData = [
   {
@@ -34,6 +36,27 @@ const projectData = [
     description: 'Description for Project Three',
     githubLink: 'https://github.com/Gunasekar16082001/XO-game-gs',
     liveDemoLink: 'https://xo-game-gs.netlify.app/'
+  },
+  {
+    image: img5,
+    title: 'Baby care webpage',
+    description: 'Description for Project Three',
+    githubLink: 'https://github.com/Gunasekar16082001/Baby-car-web.git',
+    liveDemoLink: 'https://baby-care-web.netlify.app/'
+  },
+  {
+    image: img6,
+    title: 'Expense   tracker web',
+    description: 'Description for Project Three',
+    githubLink: 'https://github.com/Gunasekar16082001/Expense-Tracker.git',
+    liveDemoLink: 'https://expense-tracker-guna.netlify.app/'
+  },
+  {
+    image: img7,
+    title: 'Movie mobile app',
+    description: 'Description for Project Three',
+    githubLink: 'https://github.com/Gunasekar16082001/movie-app-guna.git',
+    liveDemoLink: 'https://movie-app-guna.netlify.app/'
   },
  
 ];
